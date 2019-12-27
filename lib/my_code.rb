@@ -46,8 +46,9 @@ def reduce_to_all_true(array)
     while count < array.length do
       if array[count] == true
       count += 1
-    elsif array[count] == false
-      return nil
+      else
+        return nil
+      end
     end
   return true
 end
